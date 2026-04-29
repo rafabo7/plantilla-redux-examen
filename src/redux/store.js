@@ -3,11 +3,12 @@
 // npm install; npm install @reduxjs/toolkit; npm install react-redux
 
 import { configureStore } from "@reduxjs/toolkit";
-import nombreSlice from "./NombreSlice";
+import feature from "./NombreSlice";
 
 const store = configureStore({
-    reducer:
-    nombreSlice
+    reducer: {
+        feature
+    }
 })
 
 export default store

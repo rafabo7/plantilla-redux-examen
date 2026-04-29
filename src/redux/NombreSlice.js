@@ -4,8 +4,8 @@ const initialState = {
 
 }
 
-const nombreSlice = createSlice({
-    name: 'nombreSlice',
+const featureSlice = createSlice({
+    name: 'feature',
     initialState,
     reducers: {
 
@@ -20,10 +20,10 @@ const nombreSlice = createSlice({
 
 // export const {
 //  addAction   
-// } = nombreSlice.actions
+// } = featureSlice.actions
 
-// export const selectExperience = state => state.experiences
-// export const selectEditingItem = state => state.editingItem
+// export const selectExperience = state => state.feature.experiences
+// export const selectEditingItem = state => state.feature.editingItem
 
-// esto exporta el slice bajo el nombre expresado en name:'nombreSlice'
-export default nombreSlice.reducer
+// esto exporta el slice bajo el nombre expresado en name:'feature'
+export default featureSlice.reducer
