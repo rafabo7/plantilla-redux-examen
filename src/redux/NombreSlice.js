@@ -9,12 +9,17 @@ const nombreSlice = createSlice({
     initialState,
     reducers: {
 
+        addAction(state, action) {
+
+
+        }, 
+
     }
 
 })
 
 // export const {
-//  reducers   
+//  addAction   
 // } = nombreSlice.actions
 
 // export const selectExperience = state => state.experiences
